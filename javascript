@@ -29,3 +29,15 @@ function maiordeTREs(a, b, c) {
       return c
    }
 }
+
+CODIGO INCOMPLETO
+
+let soma = 0
+for (let i = 1; i <= limite; i++) {
+   let isImpar = (i % 3 === 0);
+
+   if (isImpar && isMultiplo3) {
+     ERRO AQUI: soma = i
+   }
+   return soma
+}
