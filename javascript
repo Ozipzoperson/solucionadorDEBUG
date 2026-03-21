@@ -8,6 +8,7 @@ function verificarAprovacao(n1, n2, n3) {
    }
 }
 
+SEPARAÇÃO
 
 function verificarOadolescencia(idade) {
    if (idade >= 13 && idade <= 17) {
@@ -15,5 +16,16 @@ function verificarOadolescencia(idade) {
    }
 
    return "Outra Categoria"
-   }
+}
 
+SEPARAÇÃO
+
+function maiordeTREs(a, b, c) {
+   if (a >= b && a >= c) {
+      return a
+   } else if (b >= a && b >= c) {
+      return b
+   } else {
+      return c
+   }
+}
